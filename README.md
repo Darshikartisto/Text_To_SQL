@@ -4,7 +4,7 @@ Introduction
 Model Used
 Contact
 Introduction
-This project is a Text-to-SQL Query System with Multi-Source Data. It converts natural language queries into SQL queries that can retrieve data from both MySQL databases and CSV data sources. The system leverages machine learning models (specifically, the T5-small model) to facilitate intuitive query generation.
+This project is a Text-to-SQL Query System with Multi-Source Data. It converts natural language queries into SQL queries that can retrieve data from  MySQL databasesdata sources. The system leverages machine learning models (specifically, the T5-small model) to facilitate intuitive query generation.
 
 I explored several text generative models, including Olama, BERT, T5-base, Seq2Seq, and T5-small. Due to my laptop's specifications, I had to choose a model that was compatible without consuming too much time or GPU resources. I ultimately selected T5-small.
 
