@@ -15,7 +15,7 @@ However, I encountered an issue where the model generated correct SQL queries bu
 While I have the ML model ready, its performance is limited by the available GPU resources. I then explored other pre-trained models on Hugging Face, but their accuracy matched that of my half-trained model, making them unhelpful. I also discovered the **pandas-nql** library, which is promising but requires a ChatGPT key. I believe that with access to a proper GPU, I can complete the remaining work to achieve better accuracy.
 
 ## **Model Used**
-For the backend, I utilized **Flask** to create a REST API, connecting it to my SQL database where my files are stored. I used **Postman** to test the functionality of my API. My approach effectively searches through the database, and the 92% Rouge score machine learning model is included in this repository under the name `fine_fine_tuned_model.ipynb`, along with the Flask app in `app.py`.
+For the backend, I utilized **Flask** to create a REST API, connecting it to my SQL database where my files are stored. I used **Postman** to test the functionality of my API. My approach effectively searches through the database, and the 92% Rouge score machine learning model is included in this repository under the name `fine_tuned_model.ipynb`, along with the Flask app in `app.py`.
 
 ## My Biggest Challenge
 
