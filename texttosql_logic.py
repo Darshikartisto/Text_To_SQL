@@ -15,7 +15,7 @@ db_config = {
     "host": "localhost",
     "user": "root",  
     "password": "9528",  
-    "database": "salesinfo"  
+    "database": "table_name_94 "  
 }
 
 # Function to translate English query to SQL
@@ -68,3 +68,5 @@ def handle_query():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+

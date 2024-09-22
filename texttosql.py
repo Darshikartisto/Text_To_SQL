@@ -16,3 +16,5 @@ def translate_to_sql_select(english_query):
 english_query = "Show all employees with salary greater than $50000"
 sql_query = translate_to_sql_select(english_query)
 print("SQL Query:", sql_query)
+
+
