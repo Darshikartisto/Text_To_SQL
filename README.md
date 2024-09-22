@@ -17,4 +17,24 @@ While I have the ML model ready, its performance is limited by the available GPU
 ## **Model Used**
 For the backend, I utilized **Flask** to create a REST API, connecting it to my SQL database where my files are stored. I used **Postman** to test the functionality of my API. My approach effectively searches through the database, and the 92% Rouge score machine learning model is included in this repository under the name `fine_fine_tuned_model.ipynb`, along with the Flask app in `app.py`.
 
+## My Biggest Challenge
+
+My biggest challenge was fine-tuning the model without access to a proper GPU. Over the past three days, I kept myself busy tackling this issue.
+
+On the first day, I set up the environment, connected to my SQL database, and researched various models that would fit best with my laptop's specifications and the requirements of the project.
+
+On the second day, I developed the API in `app.py` and successfully connected it to my database.
+
+By the third day, I focused on fine-tuning my model, which took around five hours for the half-trained model.
+
+## How to Run This Project
+
+To run the Text-to-SQL Query System with Multi-Source Data, follow these steps:
+
+ **Clone the Repository**:
+   Clone the project repository to your local machine then pip install -r requirements.txt , connect to sql database , you may connect yours and then python app.py
+
+   
+
+
 
