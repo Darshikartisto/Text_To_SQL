@@ -37,4 +37,12 @@ To run the Text-to-SQL Query System with Multi-Source Data, follow these steps:
    
 
 
+https://github.com/user-attachments/assets/50261a4a-f954-4cac-827c-a3ebb7b08892
+
+
+
+
+
+https://github.com/user-attachments/assets/956ae186-350b-4180-a4fe-94dbc0ac5548
+
 
