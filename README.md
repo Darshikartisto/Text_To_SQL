@@ -45,26 +45,43 @@ On the first day, I set up the environment, connected to my SQL database, and re
 On the second day, I developed the API in `app.py` and successfully connected it to my database.
 
 By the third day, I focused on fine-tuning my model, which took around five hours for the half-trained model.
-## Challenge Overcomed
-Utilizing Better GPU we completed the model training and now our model is trained with better optimization.[2nd March 2025 updates]
-Step	Training Loss	Validation Loss
-500	0.060800	0.042019
-1000	0.040200	0.030493
-1500	0.036500	0.025905
-2000	0.030900	0.022786
-2500	0.024600	0.020304
-3000	0.025800	0.018751
-3500	0.028700	0.017546
-4000	0.022300	0.016787
-4500	0.023800	0.016067
-5000	0.020200	0.015377
-5500	0.019500	0.014977
-6000	0.020900	0.014771
-6500	0.024200	0.014634
-7000	0.023900	0.014581
-Training completed successfully!
-CPU times: user 2h 24min 29s, sys: 27min 16s, total: 2h 51min 46s
-Wall time: 2h 51min 37s
+
+## Challenge Overcome  
+Utilizing a better GPU, we successfully completed model training with improved optimization.  
+📅 **Update: 2nd March 2025**  
+
+## Training Progress  
+
+| Step  | Training Loss | Validation Loss |
+|-------|--------------|----------------|
+| 500   | 0.060800     | 0.042019       |
+| 1000  | 0.040200     | 0.030493       |
+| 1500  | 0.036500     | 0.025905       |
+| 2000  | 0.030900     | 0.022786       |
+| 2500  | 0.024600     | 0.020304       |
+| 3000  | 0.025800     | 0.018751       |
+| 3500  | 0.028700     | 0.017546       |
+| 4000  | 0.022300     | 0.016787       |
+| 4500  | 0.023800     | 0.016067       |
+| 5000  | 0.020200     | 0.015377       |
+| 5500  | 0.019500     | 0.014977       |
+| 6000  | 0.020900     | 0.014771       |
+| 6500  | 0.024200     | 0.014634       |
+| 7000  | 0.023900     | 0.014581       |
+
+✅ **Training completed successfully!** 🎉  
+
+### **Performance Metrics**  
+- **CPU Time**: User - 2h 24min 29s, System - 27min 16s  
+- **Total Execution Time**: 2h 51min 46s  
+- **Wall Time**: 2h 51min 37s  
+
+---
+
+## Next Steps  
+- Enhance model accuracy with additional fine-tuning  
+- Deploy the model for real-time SQL query generation  
+- Optimize performance for lower latency  
 
 ## How to Run This Project
 
