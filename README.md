@@ -27,6 +27,9 @@ While I have the ML model ready, its performance is limited by the available GPU
 
 ## **Model Used**
 For the backend, I utilized **Flask** to create a REST API, connecting it to my SQL database where my files are stored. I used **Postman** to test the functionality of my API. My approach effectively searches through the database, and the 92% Rouge score machine learning model is included in this repository under the name `fine_tuned_model.ipynb`, along with the Flask app in `app.py`.
+## **Latest Updates**  
+The model has been fine-tuned using a **P100 GPU** notebook updated https://github.com/Darshikartisto/Text_To_SQL/edit/main/texttossql-ipynb.ipynb, and the complete version is now available. It is fully operational and can be tested using **FastAPI** for integration. Further updates and enhancements will be added soon.
+
 ## **Contributors**    
 - **Darshika** ([Darshikartisto](https://github.com/Darshikartisto))
 
@@ -51,7 +54,5 @@ To run the Text-to-SQL Query System with Multi-Source Data, follow these steps:
    Clone the project repository to your local machine then pip install -r requirements.txt , connect to sql database , you may connect yours and then python app.py
 https://github.com/user-attachments/assets/50261a4a-f954-4cac-827c-a3ebb7b08892
 
-**Latest Updates**  
-The model has been fine-tuned using a **P100 GPU** notebook updated https://github.com/Darshikartisto/Text_To_SQL/edit/main/texttossql-ipynb.ipynb, and the complete version is now available. It is fully operational and can be tested using **FastAPI** for integration. Further updates and enhancements will be added soon.
 
 
