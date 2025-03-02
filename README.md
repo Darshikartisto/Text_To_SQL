@@ -49,7 +49,8 @@ To run the Text-to-SQL Query System with Multi-Source Data, follow these steps:
  **Clone the Repository**:
    Clone the project repository to your local machine then pip install -r requirements.txt , connect to sql database , you may connect yours and then python app.py
 https://github.com/user-attachments/assets/50261a4a-f954-4cac-827c-a3ebb7b08892
+
 **Latest Updates**  
-The model has been fine-tuned using a **P100 GPU**, and the complete version is now available. It is fully operational and can be tested using **FastAPI** for integration. Further updates and enhancements will be added soon.
+The model has been fine-tuned using a **P100 GPU** notebook updated https://github.com/Darshikartisto/Text_To_SQL/edit/main/texttossql-ipynb.ipynb, and the complete version is now available. It is fully operational and can be tested using **FastAPI** for integration. Further updates and enhancements will be added soon.
 
 
