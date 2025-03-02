@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Model Used](#model-used)
 - [Contact](#contact)
+- [Contributers](#contributers)
 
 ## **Introduction**
 This project is a **Text-to-SQL Query System with Multi-Source Data**. It converts natural language queries into SQL queries that can retrieve data from  MySQL databases . The system leverages machine learning models (specifically, the T5-small model) to facilitate intuitive query generation.
@@ -25,6 +26,11 @@ While I have the ML model ready, its performance is limited by the available GPU
 
 ## **Model Used**
 For the backend, I utilized **Flask** to create a REST API, connecting it to my SQL database where my files are stored. I used **Postman** to test the functionality of my API. My approach effectively searches through the database, and the 92% Rouge score machine learning model is included in this repository under the name `fine_tuned_model.ipynb`, along with the Flask app in `app.py`.
+## **Contributors**    
+- **Darshika** ([Darshikartisto](https://github.com/Darshikartisto))
+
+- **Vaishali** ([vaishali312003](https://github.com/vaishali312003)) ([Kaggle Notebook](https://www.kaggle.com/code/vasthetic/texttossql-ipynb))  
+
 
 ## My Biggest Challenge
 
@@ -42,16 +48,8 @@ To run the Text-to-SQL Query System with Multi-Source Data, follow these steps:
 
  **Clone the Repository**:
    Clone the project repository to your local machine then pip install -r requirements.txt , connect to sql database , you may connect yours and then python app.py
-
-   
-
-
 https://github.com/user-attachments/assets/50261a4a-f954-4cac-827c-a3ebb7b08892
-
-
-
-
-
-
+**Latest Updates**  
+The model has been fine-tuned using a **P100 GPU**, and the complete version is now available. It is fully operational and can be tested using **FastAPI** for integration. Further updates and enhancements will be added soon.
 
 
