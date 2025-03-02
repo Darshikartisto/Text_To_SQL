@@ -2,7 +2,7 @@
 
 ## **Table of Contents**
 - [Introduction](#introduction)
-- [Updates](#Latest Updates)
+- [Latest Updates](#updates)
 - [Model Used](#model-used)
 - [Contact](#contact)
 - [Contributers](#contributers)
